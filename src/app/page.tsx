@@ -1,9 +1,9 @@
-import Image from "next/image";
+import { prisma } from "@/lib/db";
 
-export default function Page() {
+export default async function Page() {
   return (
     <div className="text-bold text-rose-400">
-      Hello world
+     
     </div>
   );
 }
