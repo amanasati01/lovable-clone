@@ -1,9 +1,9 @@
-import { prisma } from "@/lib/db";
 
-export default async function Page() {
+export default async function Home() {
+ 
   return (
-    <div className="text-bold text-rose-400">
-     
-    </div>
-  );
+    <>
+    <div>"Hello world"</div>
+    </>
+)
 }
