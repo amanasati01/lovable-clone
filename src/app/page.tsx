@@ -31,6 +31,7 @@ export default function Home() {
         </Button>
         <div>{JSON.stringify(invoke.data)}</div>
       </div>
+      <div>Aman Asati</div>
     </>
   );
 }
