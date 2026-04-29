@@ -32,6 +32,7 @@ export default function Home() {
         <div>{JSON.stringify(invoke.data)}</div>
       </div>
       <div>Aman Asati</div>
+      <div>Aman Asati</div>
     </>
   );
 }
